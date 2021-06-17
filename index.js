@@ -8,7 +8,7 @@ const router = require('./routes/api/user');
 
 // puerto y base de datos
 const port = process.env.PORT        || 3000;
-const db   = process.env.MONGODB_URI || 'mongodb+srv://hellodb:<hellodb>@cluster0.wjiwi.mongodb.net/myFirstDatabase?retryWrites=true&w=majority';
+const db   = process.env.MONGODB_URI || 'mongodb://localhost/hellodb';
 
 const app = express();
 
